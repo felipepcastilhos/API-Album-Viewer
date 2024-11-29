@@ -1,0 +1,25 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+#image-grid .col {
+  margin-bottom: 20px;
+}
+
+img.album-cover {
+  max-width: 100%;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  #image-grid .col {
+    flex: 0 0 50%;
+  }
+}
+
+@media (max-width: 767px) {
+  #image-grid .col {
+    flex: 0 0 100%;
+  }
+}
